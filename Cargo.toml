@@ -1,0 +1,11 @@
+[package]
+name = "snmp_printer"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+snmp = "0.2.2"
+ipnetwork = "0.19.0"
+tokio = { version = "1.0", features = ["full"] }
+
+
